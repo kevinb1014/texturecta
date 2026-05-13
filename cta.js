@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Add coordinate overlay (DEBUG MODE)
     const row = Math.floor(i / cols);
     const col = i % cols;
-    cell.innerHTML = `<span style="font-size: 4px; color: rgba(0,0,0,0.3); pointer-events: none;">c${col},r${row}</span>`;
+    cell.innerHTML = `<span style="font-size: 4px; color: rgba(0,0,0,0.0); pointer-events: none;">c${col},r${row}</span>`;
     cell.style.display = 'flex';
     cell.style.alignItems = 'center';
     cell.style.justifyContent = 'center';
