@@ -33,15 +33,15 @@ document.addEventListener('DOMContentLoaded', function() {
 
   // Fixed array of 12 cells to loop through
   const animationSequence = [
-    getCellIndex(23, 13),  // c23, r13
-    getCellIndex(60, 13),  // c60, r13
-    getCellIndex(98, 12),  // c98, r12
+    getCellIndex(66, 14),  // c23, r13
+    getCellIndex(5, 14),  // c60, r13
+    getCellIndex(62, 12),  // c98, r12
     getCellIndex(30, 11),  // c30, r11
     getCellIndex(28, 10),  // c28, r10
     getCellIndex(32, 9),   // c32, r9
     getCellIndex(25, 13),  // c25, r13
     getCellIndex(63, 13),  // c63, r13
-    getCellIndex(95, 12),  // c95, r12
+    getCellIndex(92, 11),  // c95, r12
     getCellIndex(35, 11),  // c35, r11
     getCellIndex(33, 10),  // c33, r10
     getCellIndex(27, 9)    // c27, r9
